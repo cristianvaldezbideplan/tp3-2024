@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tp3v2</string>
+    <string name="Usuario_Title1">Utilisateur</string>
+    <string name="Contraseña_Title1">Mot de passe</string>
+    <string name="Contraseña_Title2">Mot de passe</string>
+    <string name="Usuario_Title2">Utilisateur</string>
+    <string name="InciarSesion">Commencer la session</string>
+    <string name="Registrarse">Enregistrement</string>
+    <string name="CorreoElectronico">Courrier électronique</string>
+    <string name="Whatsapp">Whatsapp</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Facebook">Facebook</string>
+    <string name="GitHub">GitHub</string>
+    <string name="PaginaWeb">Page Web</string>
+    <string name="Telefono">Téléphone</string>
+    <string name="AcercadeNosotros">Près de nous</string>
+    <string name="AcercadelDeveloper">À propos du développeur</string>
+    <string name="Proximamente1">Bientôt</string>
+    <string name="Proximamente2">Bientôt</string>
+    <string name="Salir">Sortir</string>
+    <string name="Razer_Title">Razer</string>
+    <string name="Razer_Texto">Razer™ est la première marque mondiale de style de vie pour les joueurs. Le serpent à trois têtes de Razer est l\'un des logos les plus reconnus dans les communautés d\'esports et de jeux vidéo à travers le monde.</string>
+    <string name="Nombre">" Patate Douce"</string>
+    <string name="MatiasJulian">"Matias Julian "</string>
+    <string name="Apellido">Le nom:</string>
+    <string name="SantiamenPerez">"Santiamen Perez "</string>
+    <string name="Provincia">Province:</string>
+    <string name="LaPampa">"La Pampa "</string>
+    <string name="Localidad">Localité:</string>
+    <string name="SantaRosa">"Santa Rosa "</string>
+    <string name="Telefono1">Téléphone:</string>
+    <string name="NumeroFisico">" 2954-335959 "</string>
+    <string name="Contactar">Contacter</string>
+    <string name="Developer">Programmeur/Développeur</string>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".AcercaDeveloper">
+
+    <TextView
+        android:id="@+id/textTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Developer"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombre"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textApellido"
+        app:layout_constraintEnd_toStartOf="@+id/textNom1"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/textNom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MatiasJulian"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textApell1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/textLocalidad1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SantaRosa"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textTelef1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/textProvincia"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/textProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Provincia"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textLocalidad"
+        app:layout_constraintEnd_toStartOf="@+id/textProvincia1"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textApell1" />
+
+    <TextView
+        android:id="@+id/textLocalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Localidad"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textTelefono"
+        app:layout_constraintEnd_toStartOf="@+id/textLocalidad1"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProvincia1"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/textTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="@string/Telefono1"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnContactar"
+        app:layout_constraintEnd_toStartOf="@+id/textTelef1"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLocalidad1"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/textApell1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SantiamenPerez"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textProvincia1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.737" />
+
+    <TextView
+        android:id="@+id/textProvincia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LaPampa"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textLocalidad1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <TextView
+        android:id="@+id/textTelef1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumeroFisico"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnContactar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/textLocalidad"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <TextView
+        android:id="@+id/textApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Apellido"
+        android:textColor="#00FF00"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textProvincia"
+        app:layout_constraintEnd_toStartOf="@+id/textApell1"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNom1"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/btnContactar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FF00"
+        android:text="@string/Contactar"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo1"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="249dp"
+        android:layout_height="219dp"
+        app:layout_constraintBottom_toTopOf="@+id/textTitulo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        app:srcCompat="@drawable/full_stack_developer_salary" />
+
+    <ImageView
+        android:id="@+id/imageReversa1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_548623" />
+</androidx.constraintlayout.widget.ConstraintLayout>

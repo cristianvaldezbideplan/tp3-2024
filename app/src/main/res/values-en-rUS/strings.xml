@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tp3v2</string>
+    <string name="Usuario_Title1">User</string>
+    <string name="Contraseña_Title1">" Password"</string>
+    <string name="Contraseña_Title2">" Password"</string>
+    <string name="Usuario_Title2">User</string>
+    <string name="InciarSesion">Login</string>
+    <string name="Registrarse">Checkin</string>
+    <string name="CorreoElectronico">Email</string>
+    <string name="Whatsapp">Whatsapp</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Facebook">Facebook</string>
+    <string name="GitHub">GitHub</string>
+    <string name="PaginaWeb">Web page</string>
+    <string name="Telefono">Phone</string>
+    <string name="AcercadeNosotros">About us</string>
+    <string name="AcercadelDeveloper">"About the Developer "</string>
+    <string name="Proximamente1">Soon</string>
+    <string name="Proximamente2">Soon</string>
+    <string name="Salir">Go out</string>
+    <string name="Razer_Title">Razer</string>
+    <string name="Razer_Texto">Razer™ is the world\'s leading lifestyle brand for gamers. Razer\'s trademark three-headed snake is one of the most recognized logos in the esports and gaming communities around the world.</string>
+    <string name="Nombre">Name:</string>
+    <string name="MatiasJulian">"Matias Julian "</string>
+    <string name="Apellido">Last name:</string>
+    <string name="SantiamenPerez">"Santiamen Perez "</string>
+    <string name="Provincia">Province:</string>
+    <string name="LaPampa">"La Pampa "</string>
+    <string name="Localidad">Location:</string>
+    <string name="SantaRosa">"Santa Rosa "</string>
+    <string name="Telefono1">Phone:</string>
+    <string name="NumeroFisico">" 2954-335959 "</string>
+    <string name="Contactar">Contact</string>
+    <string name="Developer">Programmer/Developer</string>
+</resources>
